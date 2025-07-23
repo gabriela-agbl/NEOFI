@@ -519,3 +519,46 @@ main .main_text-button .main_button-wrapper button{
 
     color: var(--color-white);
 }
+/* --------------------REVOLUTIONARY-------------------- */
+.revolutionary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 60px 0;
+
+    background-color: black;
+}
+
+.revolutionary h2{
+    width: 800px;
+
+    font-size: 48px;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: var(--color-white);
+}
+
+.revolutionary p{
+    width: 644px;
+
+    font-size: 18px;
+    font-weight: 300;
+
+    color: var(--color-gray1);
+}
+
+.start_button{
+    font-size: 18px;
+    font-weight: 400;
+
+    color: black;
+
+    padding: 14px 24px;
+
+    background-color: var(--color-green);
+}
