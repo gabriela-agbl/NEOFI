@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    text-decoration: none;
+}
+
+:root{
+    --color-green: #9DFF3A;
+    --color-green-gradient: linear(#75A941, #3A7500);
+
+    --color-white: #E5E5E5;
+
+    --color-gray1: #999999;
+    --color-gray2: #4D4D4D;
+    --color-gray3: #2E2E2E;
+    --color-gray4: #0F0F0F;
+
+    --font-alexandria: "Alexandria", sans-serif;
+}
+
+body{
+    font-family: var(--font-alexandria);
+}
