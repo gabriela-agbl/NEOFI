@@ -188,3 +188,107 @@ main .main_text-button .main_button-wrapper button{
     align-items: center;
     gap: 50px;
 }
+/* --------------------FEATURES-------------------- */
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    padding: 60px 0;
+
+    background-color: black;
+}
+
+.features .feature_text-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.top_button{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--font-alexandria);
+
+    border: 1.5px solid #2E2E2E;
+
+    border-radius: 24px;
+
+    padding: 12px 20px;
+
+    color: var(--color-green);
+}
+
+.features .feature_text-button h2{
+    font-size: 48px;
+    font-weight: 400;
+    
+    color: var(--color-white);
+}
+
+.features .feature_text-button p{
+    width: 600px;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    text-align: center;
+
+    line-height: 140%;
+
+    color: var(--color-gray1);
+}
+
+.features .feature_boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.features .feature_boxes .feature_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+
+    text-align: center;
+
+    padding: 48px 36px;
+
+    border: 1px solid transparent;
+
+    border-radius: 12px;
+
+    background: 
+    linear-gradient(rgb(10, 10, 10), rgb(10, 10, 10)) padding-box,
+    linear-gradient(116deg,rgba(179, 179, 179, 0.6), rgba(77, 77, 77, 0.6)) border-box;
+}
+
+.features .feature_boxes .feature_box .feature_box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.features .feature_boxes .feature_box .feature_box-text h3{
+    font-size: 20px;
+    font-weight: 300;
+
+    color: var(--color-white);
+}
+
+.features .feature_boxes .feature_box .feature_box-text p{
+    width: 338px;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--color-gray1);
+}
