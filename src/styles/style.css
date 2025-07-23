@@ -453,3 +453,69 @@ main .main_text-button .main_button-wrapper button{
 
     color: var(--color-gray1);
 }
+/* --------------------FAQ-------------------- */
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    padding: 60px 0;
+
+    background-color: var(--color-gray4);
+}
+
+.FAQ .faq_text-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.FAQ .faq_text-button h2{
+    font-size: 48px;
+    font-weight: 400;
+
+    color: var(--color-white);
+}
+
+.FAQ .faq_text-button p{
+    width: 660px;
+
+    font-size: 18px;
+    font-weight: 300;
+
+    text-align: center;
+
+    color: var(--color-gray1);
+}
+
+.FAQ .faq_questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.faq_questions .faq_question{
+    width: 792px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px 20px;
+
+    border: 1px solid var(--color-gray3);
+}
+
+.faq_question p{
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--color-white);
+}
