@@ -292,3 +292,70 @@ main .main_text-button .main_button-wrapper button{
 
     color: var(--color-gray1);
 }
+/* --------------------STATISTICS-------------------- */
+.statistics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    padding: 60px;
+
+    background-color: var(--color-gray4);
+}
+
+.statistics .statistics_text-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.statistics .statistics_text-button h2{
+    font-size: 48px;
+    font-weight: 400;
+
+    color: var(--color-white);
+}
+
+.statistics .statistics_text-button p{
+    width: 680px;
+
+    font-size: 18px;
+    font-weight: 300;
+
+    text-align: center;
+
+    color: var(--color-gray1);
+}
+
+.statistics .statistics_numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.statistics .statistics_numbers .statistics_number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.statistics_number h3{
+    font-size: 48px;
+    font-weight: 400;
+
+    color: var(--color-green);
+}
+
+.statistics_number p{
+    font-size: 20px;
+    font-weight: 300;
+
+    color: var(--color-gray1);
+}
