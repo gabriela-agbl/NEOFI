@@ -1,0 +1,60 @@
+@import url('./global.css');
+
+/* --------------------HEADER-------------------- */
+header{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+    padding: 20px 0;
+
+    background-color: #000000;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav a:nth-child(1){
+    color: var(--color-white);
+}
+
+header nav a{
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--color-gray1);
+}
+
+header nav a .button_wrapper_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.button_wrapper_header button{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-alexandria);
+
+    padding: 8px 24px;
+}
+
+.green{
+    background-color: var(--color-green);
+    color: #000000;
+
+    border-radius: 40px;
+}
+
+.black{
+    background-color: transparent;
+    color: #FFFFFF;
+}
