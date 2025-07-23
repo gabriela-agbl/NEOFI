@@ -162,3 +162,29 @@ main .main_text-button .main_button-wrapper button{
 
     border-radius: 40px;
 }
+/* --------------------PARTNERS-------------------- */
+.partners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    padding: 40px 0;
+
+    background-color: var(--color-gray4);
+}
+
+.partners p{
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--color-gray1);
+}
+
+.partners .partners_logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
