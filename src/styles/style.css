@@ -562,3 +562,99 @@ main .main_text-button .main_button-wrapper button{
 
     background-color: var(--color-green);
 }
+/* --------------------FOOTER-------------------- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 126px;
+
+    padding: 40px 0 60px 0;
+
+    background-color:  black;
+}
+
+footer .footer_logo-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 92px;
+}
+
+.footer_logo-links .footer_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.footer_links h3{
+    font-size: 20px;
+    font-weight: 300;
+
+    color: var(--color-white);
+}
+
+.footer_links nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.footer_links nav a{
+    font-size: 14px;
+    font-weight: 400;
+
+    color: var(--color-gray1);
+}
+
+footer .footer_email-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+
+    border-bottom: 1px solid #999999;
+}
+
+.footer_email-area h3{
+    width: 198px;
+
+    font-size: 20px;
+    font-weight: 300;
+
+    color: #D8D8D8;
+}
+
+.footer_email-area .footer_email-input{
+    width: 385px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 0 16px 0;
+}
+
+.footer_email-input input{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--font-alexandria);
+
+    color: var(--color-gray1);
+}
+
+.footer_email-input button{
+    display: flex;
+
+    padding: 11.07px 11px 10.93px 11px;
+
+    border-radius: 50%;
+
+    background-color: var(--color-green);
+}
