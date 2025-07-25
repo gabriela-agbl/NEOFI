@@ -1,5 +1,5 @@
 # NEOFI
-Site desenvolvido a partir de seu template no figma. Foi feito para aplicar conhecimentos em HTML e CSS, e também para testar a responsividade com midias querys.
+Site desenvolvido a partir de seu template no figma. Foi feito para aplicar conhecimentos em HTML e CSS, e também para testar a responsividade com medias querys.
 
 ---
 
